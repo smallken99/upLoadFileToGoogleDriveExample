@@ -17,7 +17,6 @@ from infi.systray import SysTrayIcon
 import uploadMyMoneydb as up
 def say_hello(systray):
     print("Hello, World!")
-menuList = ()
  
 menu_options = (("Say Hello", None, say_hello),
 		("檔案上傳",None,up.main)
