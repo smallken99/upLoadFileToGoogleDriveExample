@@ -58,6 +58,7 @@ def main(systray):
     file = service.files().create(body=file_metadata,
                                         media_body=media,
                                         fields='id').execute()
-    print('File ID: %s' % file.get('id'))           
+    print('File ID: %s' % file.get('id'))
+    print('檔案上傳成功!')           
 if __name__ == '__main__':
     main()
