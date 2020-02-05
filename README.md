@@ -1,2 +1,2 @@
 # upLoadMyMoneydbToGoogleDriveExample
-記帳本上傳雲端備份
+記帳本上傳/下載雲端備份
